@@ -2,7 +2,7 @@
 void main()
 {
   int a[5] = {1,2,3,4,5};
-  int* p = &a;
+  int* p = a;
   printf("%d",*(p+1));
   printf("%d",*p);
 }
