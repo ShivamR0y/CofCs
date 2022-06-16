@@ -1,7 +1,6 @@
 #include<stdio.h>
-void print(char a[])
+void print(char* p)
 {
-	char* p = a;
 	while(*p!='\0')
 	{
 		printf("%c",*p);
